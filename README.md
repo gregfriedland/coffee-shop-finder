@@ -1,10 +1,10 @@
-#### Coffee Shop Finder
+#### Coffee Shop Finder REST server
 
 ##### Installation and setup
-1. `git clone git@github.com/gregfriedland/coffee-shop-finder.git`
+1. `git clone https://github.com/gregfriedland/coffee-shop-finder.git`
 2. `cd coffee-shop-finder`
 3. `npm install`
-4. `node ./main.js locations.csv`
+4. Start REST server: `node ./main.js locations.csv`
 5. Run unit tests: `mocha server-test.js`
 
 ##### Create endpoint
